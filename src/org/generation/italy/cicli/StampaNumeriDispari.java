@@ -22,7 +22,6 @@ public class StampaNumeriDispari {
 			
 			numbers[i] = gen.nextInt(100);
 			
-//			System.out.println(numbers[i]);
 			if(numbers[i] % 2 != 0) {		//stampa dei numeri dispari. elemento array modulo 2 diverso da 0
 				System.out.println(numbers[i]);
 			}  	
